@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
                 ('name', models.TextField()),
                 ('tel', models.TextField()),
                 ('mail', models.TextField()),
-                ('birth', models.DateTimeField()),
+                ('birth', models.TextField()),
             ],
         ),
     ]
