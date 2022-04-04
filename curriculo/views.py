@@ -1,5 +1,7 @@
 from django.shortcuts import render
+from .models import DadosPessoa
 
 # Create your views here.
 def perfil_pessoa(request):
-    return render(request, 'curriculo/carta.html', {})
+    var = DadosPessoa.objects.values()
+    return render(request, 'curriculo/carta.html', {"var": var})

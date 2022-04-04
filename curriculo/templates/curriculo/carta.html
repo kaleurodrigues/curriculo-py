@@ -4,6 +4,12 @@
     <title>Kaleu S. Rodrigues</title>
 </head>
 <body>
-    <h3>Kaleu S. Rodrigues</h3>
+    {% for pessoas in var %}
+        <div>
+            <strong>Nome:</strong> {{ pessoas.name }} ---
+            <strong>Telefone:</strong> {{ pessoas.tel }}
+            <p></p>
+        </div>
+    {% endfor %}
 </body>
 </html>
