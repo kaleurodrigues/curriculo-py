@@ -27,4 +27,7 @@
 .center_box h1 {
     color: black;
     font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
 }
