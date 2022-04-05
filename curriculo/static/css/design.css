@@ -1,0 +1,30 @@
+.a4 {
+    position: relative;
+    width: 21cm;
+    height: 29.7cm;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+}
+
+.left_box {
+    background-color: grey;
+    width: 40%;
+    height: 100%;
+}
+
+.center_box {
+    background-color: white;
+    width: 16cm;
+    height: 150px;
+    border: 1px solid black;
+    margin-left: 2.5cm;
+    margin-right: 2.5cm;
+    margin-top: 1cm;
+    position: absolute;
+}
+
+.center_box h1 {
+    color: black;
+    font-size: 15px;
+}

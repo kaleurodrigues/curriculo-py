@@ -5,6 +5,7 @@ class DadosPessoa(models.Model):
     tel = models.TextField()
     mail = models.TextField()
     birth = models.TextField()
+    prof = models.TextField()
 
     def __str__(self):
         return self.name
